@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="app">
       <h1>Hi there!</h1>
-      <DemoOutput show={false} />
+      <DemoOutput show={showText} />
       <Button onClick={allowToggleHandler}>Allow Toggle</Button>
       <Button onClick={showtexthandler}>Toggle</Button>
     </div>
